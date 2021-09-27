@@ -94,10 +94,11 @@
     font-weight: 500;
     font-size: 14px;
     box-shadow: 0px 0px 20px 3px #e8e8e8;
+    background-color: rgba(255, 255, 255, 0.8);
 
     .logo {
       cursor: pointer;
-      width: 115px;
+      width: 75px;
       height: 40px;
       background-image: url(../assets/img/logo.png);
       background-size: 100% 100%;

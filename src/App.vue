@@ -14,5 +14,6 @@
 
 <style lang="less">
   #app {
+    min-width: 1300px;
   }
 </style>
