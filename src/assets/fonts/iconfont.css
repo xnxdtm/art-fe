@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id  */
-  src: url('iconfont.ttf?t=1632642193904') format('truetype');
+  src: url('iconfont.ttf?t=1632758809128') format('truetype');
 }
 
 .iconfont {
@@ -13,6 +13,14 @@
 
 .icon-huo:before {
   content: "\e6a0";
+}
+
+.icon-aixin:before {
+  content: "\e658";
+}
+
+.icon-redu:before {
+  content: "\e633";
 }
 
 .icon-huoqing-:before {

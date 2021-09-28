@@ -13,6 +13,20 @@
       "unicode_decimal": 59040
     },
     {
+      "icon_id": "1301353",
+      "name": "爱心",
+      "font_class": "aixin",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "6684303",
+      "name": "热度",
+      "font_class": "redu",
+      "unicode": "e633",
+      "unicode_decimal": 58931
+    },
+    {
       "icon_id": "8744448",
       "name": "火情-01",
       "font_class": "huoqing-",
