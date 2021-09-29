@@ -12,7 +12,7 @@
     <!--热门视频-->
     <Video></Video>
     <!--热门商品-->
-    <div class="goods"></div>
+    <goods></goods>
     <!--网站备案信息-->
     <div class="legal">
       <span>京公网安备11000002000001号京ICP证030173号©2021 </span>
@@ -27,10 +27,11 @@
   import LoopPicture from '@/views/home/LoopPicture';
   import Write from '@/views/home/Write';
   import Video from '@/views/home/Video';
+  import Goods from '@/views/home/Goods';
 
   export default {
     name: 'Home',
-    components: {Video, Write, LoopPicture, Header},
+    components: {Goods, Video, Write, LoopPicture, Header},
     mounted() {
       window.onscroll = function () {
         this.scrollTop = document.documentElement.scrollTop || document.body.scrollTop;

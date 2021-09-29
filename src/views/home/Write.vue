@@ -113,6 +113,12 @@
         line-height: 40px;
         text-align: center;
         cursor: pointer;
+        &:hover {
+          & {
+            color: @baseFontColor;
+            border-color: @baseFontColor;
+          }
+        }
       }
     }
 
