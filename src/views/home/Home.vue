@@ -41,7 +41,6 @@
           document.getElementsByClassName('no-header')[0].style.display = 'none'
         }
       }
-      this.loopInterval = setInterval(this.nextLoop, 3000);
     },
     data() {
       return {
@@ -119,5 +118,7 @@
     }
 
     /*---------网站备案结束--------*/
+
+
   }
 </style>

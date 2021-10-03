@@ -34,6 +34,13 @@
       "unicode_decimal": 58901
     },
     {
+      "icon_id": "15838444",
+      "name": "close",
+      "font_class": "close",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
       "icon_id": "15838561",
       "name": "arrow-left-bold",
       "font_class": "arrow-left-bold",

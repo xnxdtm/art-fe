@@ -82,6 +82,9 @@
         loopInterval: '',
       }
     },
+    mounted() {
+      this.loopInterval = setInterval(this.nextLoop, 3000);
+    },
     methods: {
       changeCurrentLoopSelect(index) {
         clearInterval(this.loopInterval)

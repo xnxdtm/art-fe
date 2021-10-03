@@ -53,15 +53,36 @@
       </ul>
     </div>
     <div class="status">
-      <div class="login">登录</div>
-      <div class="sign-up">注册</div>
+      <div class="login" @click="openLogin">登录</div>
+      <div class="sign-up" @click="openLogup">注册</div>
     </div>
+    <!--登录注册-->
+    <login :class="$store.state.openLoginPopup ? '' : 'no-login'"></login>
+    <logup :class="$store.state.openLogupPopup ? '' : 'no-login'"></logup>
   </div>
 </template>
 
 <script>
+  import Login from '@/views/account/Login';
+  import Logup from '@/views/account/Logup';
+
   export default {
-    name: 'Header'
+    name: 'Header',
+    components: {Logup, Login},
+    component: {Login},
+    data() {
+      return {
+
+      }
+    },
+    methods: {
+      openLogin() {
+        this.$store.commit("changeOpenLoginPopup", true)
+      },
+      openLogup() {
+        this.$store.commit("changeOpenLogupPopup", true)
+      },
+    },
   }
 </script>
 
@@ -208,6 +229,9 @@
       }
     }
 
+    .no-login {
+      display: none;
+    }
 
   }
 </style>
